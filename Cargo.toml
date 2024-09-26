@@ -1,0 +1,12 @@
+[package]
+name = "autoclear"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4.38"
+clap = { version = "4.5.18", features = ["derive"] }
+
+[[bin]]
+name = "autoclear"
+path = "src/main.rs"
